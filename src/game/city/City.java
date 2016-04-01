@@ -4,20 +4,9 @@ import graph.Graph;
 
 public class City {
 
-  private Graph<Building, Road> graph;
+  private Graph<Location, Road> graph;
 
-
-
-
-
-
-
-
-
-
-
-
-  public Graph<Building, Road> getGraph() {
+  public Graph<Location, Road> getGraph() {
     return graph.unmodifiableGraph();
   }
 
